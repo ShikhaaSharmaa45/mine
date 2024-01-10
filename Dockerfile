@@ -7,5 +7,4 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/ph
 WORKDIR /var/www/html
 RUN unzip photogenic.zip
 RUN cp -rvf photogenic/* .
-CMD ["/usr/sbin/httpd", "-D",  "FOREGROUND"]
 EXPOSE 80
